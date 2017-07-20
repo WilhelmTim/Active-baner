@@ -1,0 +1,339 @@
+*{	margin:0px; padding: 0px;}
+html,body	{
+	height: 100%;
+	width: 100%;
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.background	{
+	background-image: url(bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	height: 100vh;
+	width: 100%;
+}
+
+.header	{
+	width: 100%;
+	color: white;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+i	{
+	margin-right: 2vw;
+}
+.title	{
+	display:table-cell;
+	vertical-align:middle;
+	height: 15vh;
+	user-select: none;
+	cursor: default;
+}
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  vertical-align: middle;
+
+}
+.aboutimage	{
+		margin-top: 30vh;
+}
+.about	{
+	color: white;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.2);
+	margin-top: 5vh;
+}
+.up-back	{
+	font-size: 1em;
+}
+
+.desc	{
+	height: 100vh;
+	background-color: #E7EEEC;
+}
+a, i	{
+	color: white;
+}
+
+#carousel	{
+	height: 68vh;
+	margin-top: 16vh;
+}
+
+.question	{
+	font-size: 2em;
+	text-decoration: bold;
+	text-align: center;
+	margin-top: 15vh;
+
+}
+
+.answer	{
+	margin-top: 5vh;
+	text-align: center;
+}
+
+.container-title	{
+	margin-top: 17vh;
+	font-size: 2em;
+	text-decoration:bold;
+	color: white;
+	text-align:center;
+}
+
+.work-icons	{
+	width: 60%;
+
+}
+.cellcenter	{
+	text-align:center;
+}
+.glyphicon-eye-open,	.glyphicon-console{
+	font-size: 1.5em;
+}
+.glyphicon-eye-open:hover, .glyphicon-console:hover	{
+	color:red;
+}
+
+.alt	{
+	font-size: 2em;
+	text-decoration: underline;
+}
+
+.abilities-icons	{
+	width: 15vw;
+	margin-top: 3vw;
+}
+.work	{
+	height: 100vh;
+	background-image: url(workgb.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.abilities	{
+	height: 100vh;
+	background-color: background-color: rgb(241, 243, 243);
+}
+
+.scripts	{
+	height: 100vh;
+	background-color: background-color: rgb(241, 243, 243);
+}
+
+.contact	{
+	height: 100vh;
+	background-image: url(contact.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.linksicons	{
+	font-size: 2em;
+}
+.hovertext	{
+	font-size: 2.5em;
+	margin-left: 1vw;
+}
+.linkrow	{
+	margin-top: 1vh;
+}
+.linkrow:hover	{
+	background-color: rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+.fa-chevron-circle-down:hover	{
+	opacity: 0.8;
+}
+
+#equalheight {
+    overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+    background-color:#efefef;
+}
+
+.aboutdown, .aboutdown1, .aboutdown2, .aboutdown3, .aboutdown4, .aboutdown5	{
+	position:absolute;
+	bottom: 0;
+
+}
+.menu	{
+	width:	20vw;
+}
+
+
+.login-icon{
+    display:inline-block;
+    text-align: center;
+	position: absolute;
+    vertical-align: bottom;
+	bottom:	1vh;
+	width: 100%;
+}
+
+.contact-form	{
+	margin-top: 25vh;
+}
+
+.fa-git:hover, .fa-file-o:hover, .fa-user-o:hover	{
+	border-bottom: 5px solid white;
+	padding-bottom: 20px;
+	margin-top: 25px;
+	display: inline;
+	cursor: pointer;
+}
+	.fa-bars:hover	{
+		cursor:pointer;
+	}
+
+
+	@media (max-width: 700px) {
+	#title	{
+		font-size: 0.8em;
+	}
+
+	.about	{
+		margin-top: 30vh;
+	}
+
+	.answer	{
+		padding-left: 10vw;
+		padding-right: 10vw;
+	}
+
+	.about-mywork	{
+		font-size: 1.2em;
+	}
+
+	.work-icons	{
+		width: 15vw;
+	}
+	.alt	{
+		font-size: 0.95em;
+	}
+		.work-image-desc2	{
+		float:right;
+		width: 25vw;
+		margin-top: 5vh;
+	}
+
+	.work-desc	{
+		color:	white;
+		font-size: 0.7em;
+		text-align: center;
+		margin:5px;
+	}
+
+	.abilities-icons	{
+		margin: 5vh;
+		width: 20vw;
+	}
+
+
+	.scripts-mobile	{
+		margin-top:2vh;
+	}
+
+	.hovertext	{
+		font-size: 1em;
+	}
+	.linkrow	{
+		margin-top: 5vh;
+	}
+
+	.links-mobile	{
+		margin-top: 0vh;
+	}
+	.mail-mobile	{
+		background-color:grey;
+		color:white;
+	}
+
+
+}
+@media (max-width: 700px) and (orientation:landscape)	{
+		.work-icons	{
+			width: 7vw;
+		}
+
+		.abilities-icons	{
+			width: 10vw;
+		}
+		.about-mywork	{
+			margin-top:5vh;
+		}
+		.contact-form	{
+			margin-top: 15vh;
+		}
+		.contact	{
+			height: 150vh;
+		}
+
+
+	}
+
+	@media (min-width: 1500px)	{
+		.about	{
+			font-size: 2em;
+		}
+		.title	{
+			font-size: 5em;
+		}
+		.fa-file-o, .fa-git, .fa-bars	{
+			font-size: 70px!important;
+		}
+		li{
+			font-size: 20px;
+		}
+		.question	{
+			font-size: 5em;
+		}
+		.answer	{
+			font-size: 2.5em;
+		}
+		.glyphicon-chevron-left, .glyphicon-chevron-right	{
+			font-size: 3em!important;
+		}
+		.about-mywork, .alt	{
+			font-size: 3em;
+		}
+		.work-full-desc	{
+			font-size: 2em;
+		}
+
+		th	{
+			font-size: 2em;
+		}
+		label	{
+			font-size:3em;
+		}
+		textarea	{
+			height:300px!important;
+			font-size: 2em!important;
+		}
+		.name, .mail, .my-mail{
+			height:50px!important;
+			font-size: 2em!important;
+		}
+		.hovertext	{
+			font-size: 5em;
+		}
+		.fa-chevron-circle-down, .fa-chevron-circle-up {
+			font-size: 5em!important;
+		}
+	}
+
+}
